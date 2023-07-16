@@ -19,19 +19,18 @@
 lang: en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title: Hydejack
+title: #'s Dev Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description: >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Writing about not only Dev but also 'my' development.
 
 # A shorter description for the sidebar.
 tagline: Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
-keywords: []
+keywords: [dev]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -41,8 +40,8 @@ logo: /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: <firstname> <lastname>
-  email: <mail@domain.tld>
+  name: <Jeongwon> <Lee>
+  email: <wjddnjs7895@naver.com>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -52,10 +51,8 @@ menu:
     url: /blog/
   - title: Projects
     url: /projects/
-  - title: Résumé*
-    url: /resume/
-  - title: Documentation
-    url: /docs/
+  - title: Algorithms
+    url: /algorithms/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -68,7 +65,7 @@ legal:
     url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2021. All rights reserved.
+copyright: © 2023. All rights reserved.
 
 # Format of the permalinks
 permalink: /blog/:categories/:year-:month-:day-:title/
@@ -272,6 +269,8 @@ hydejack:
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon: true
+    sunrise: 6
+    sunset: 18
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
