@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url: https://wjddnjs7895.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -90,7 +90,7 @@ accent_color: rgb(79,177,186)
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color: rgb(25,55,71)
+theme_color: rgb(102,102,102)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
