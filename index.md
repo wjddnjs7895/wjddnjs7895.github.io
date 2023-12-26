@@ -8,8 +8,8 @@ sitemap: false
 
 ## 목차
 
-알고리즘 - [Algorithm]{:.heading.flip-title}
-프로젝트 - [Project]{:.heading.flip-title}
+- 알고리즘 - [Algorithm]{:.heading.flip-title}
+- 프로젝트 - [Project]{:.heading.flip-title}
 
 [algorithm]: algorithm/README.md
 [project]: project/README.md
