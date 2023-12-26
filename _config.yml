@@ -27,7 +27,7 @@ description: >
   Writing about not only Dev but also 'my' development.
 
 # A shorter description for the sidebar.
-tagline: Change `tagline` in `_config.yml`
+tagline: Jeongwon's Blog
 
 # A list of keywords for your blog
 keywords: [dev]
@@ -42,6 +42,11 @@ author:
   # Used by `jekyll-feed`:
   name: <Jeongwon> <Lee>
   email: <wjddnjs7895@naver.com>
+  about: |
+    Hi, I'm Lee Jeongwon
+  social:
+    github: wjddnjs7895
+    instagram: wjddnjs7895
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
