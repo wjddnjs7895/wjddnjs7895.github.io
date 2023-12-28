@@ -1,10 +1,9 @@
 ---
+layout: projects
 title: Projects
+show_collection: projects
 description: >
-  개발 프로젝트 모음
-hide_description: true
-sitemap: false
-permalink: /projects/
+  How people are using Hydejack in the real world. 
+  This page is built using the `projects` layout* that you can use yourself to build a portfolio.
+no_groups: true
 ---
-
-Projects
