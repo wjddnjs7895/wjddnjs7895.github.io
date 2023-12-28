@@ -73,7 +73,7 @@ legal:
 copyright: © 2023. All rights reserved.
 
 # Format of the permalinks
-permalink: /blog/:categories/:title/
+permalink: /:categories/:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate: 10
