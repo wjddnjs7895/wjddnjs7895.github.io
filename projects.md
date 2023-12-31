@@ -7,5 +7,3 @@ description: >
   This page is built using the `projects` layout* that you can use yourself to build a portfolio.
 no_groups: true
 ---
-
-projects
