@@ -52,7 +52,7 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Blog-ing
+  - title: All Posts
     url: /blog/
   - title: Projects
     url: /projects/
