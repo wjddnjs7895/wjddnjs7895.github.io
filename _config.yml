@@ -322,6 +322,7 @@ include:
 # ----------------------------------------------------------------------------------------
 
 plugins:
+  - jekyll-avatar
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter

@@ -269,6 +269,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.8)
+  jekyll-avatar
   jekyll-compose
   jekyll-include-cache
   jekyll-paginate

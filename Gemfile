@@ -14,6 +14,7 @@ gem "jekyll", "~> 3.8"
 gem "webrick"
 
 gem "jekyll-paginate"
+gem "jekyll-avatar"
 
 group :jekyll_plugins do
   gem "github-pages"
