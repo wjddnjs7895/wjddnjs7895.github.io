@@ -3,6 +3,6 @@ layout: grid
 title: cs
 slug: cs
 description: >
-  cs
+  cs study
 menu: true
 ---

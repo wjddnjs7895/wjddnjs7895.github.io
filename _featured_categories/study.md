@@ -1,8 +1,8 @@
 ---
-layout: list
+layout: grid
 title: study
 slug: study
 description: >
-  cs
+  Upload Study Log
 menu: true
 ---
