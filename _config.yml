@@ -58,6 +58,8 @@ menu:
     url: /cs/
   - title: Projects
     url: /projects/
+  - title: History
+    url: /history/
 #  - title: Résumé*
 #    url: /resume/
 #  - title: Documentation
