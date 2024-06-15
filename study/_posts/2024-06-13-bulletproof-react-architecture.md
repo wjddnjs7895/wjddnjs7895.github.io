@@ -28,17 +28,17 @@ Clean Architecture에 대해 늘 궁금했었다. 특히 Front-End 개발 특성
 
 코드는 다음과 같은 원칙들을 지키고 있다.
 
-*쉽게 시작할 수 있음
-*이해하기 쉽고 유지하기 쉬움
-*작업에 알맞은 도구를 사용함
-*다른 부분 간의 경계가 확실함
+* 쉽게 시작할 수 있음
+* 이해하기 쉽고 유지하기 쉬움
+* 작업에 알맞은 도구를 사용함
+* 다른 부분 간의 경계가 확실함
 {:.lead}
-*팀원 모두 같은 방식을 채택함
-*보안
-*성능
-*확장성
+* 팀원 모두 같은 방식을 채택함
+* 보안
+* 성능
+* 확장성
 {:.lead}
-*빠른 Issue 감지
+* 빠른 Issue 감지
 {:.lead}
 
 **Note**: 처음엔 BulletProof React를 접한 .것은 단순히 Architecture가 궁금해서였기 때문에 위에 표시된 기능에 중점을 두고 보게 되었다. 공부하다가 보니 Clean Architecture로 인해 나머지 원칙들도 지킬 수 있게 된다는 것을 알게되었다.
@@ -47,22 +47,24 @@ Clean Architecture에 대해 늘 궁금했었다. 특히 Front-End 개발 특성
 
 ## 파일 구조 분석
 
-![800x400](/assets/img/study/bulletproof_react_architecture/bulletproof_react_structure.png "Bulletproof React Architecture")
-{: loading="lazy"}
+![Full-width image](/assets/img/study/bulletproof_react_architecture/bulletproof_react_structure.png "Bulletproof React Architecture")
+{:.lead width="852" height="519" loading="lazy"}
 Bulletproof React Architecture
 {:.figcaption}
 
-![800x400](/assets/img/study/bulletproof_react_architecture/bulletproof_react_feature_structure.png "Feature Architecture")
-{: loading="lazy"}
-Bulletproof React Architecture
+![Full-width image](/assets/img/study/bulletproof_react_architecture/bulletproof_react_feature_structure.png "Feature Architecture")
+{:.lead width="899" height="312" loading="lazy"}
+Bulletproof React Features Architecture
 {:.figcaption}
 
 ### 컴포넌트 구조
 
 눈에 띄는 특징은 **features**라는 폴더의 존재였다. 그동안 나는 다음과 같이 **components**라는 폴더에 모든 컴포넌트를 넣었었다. 적당히 비슷해보이는 기능들을 가진 컴포넌트들을 폴더로 구분하는 의미없는 분류와 무작정 파일을 작게 쪼개기만하는 습관을 가지고 있었다.
 
-![800x400](https://via.placeholder.com/800x400 "과거 프로젝트의 components 파일")
-{:.약 2년전 진행한 프로젝트 구조}
+![Full-width image](/assets/img/study/bulletproof_react_architecture/my_project_structure.png "과거 프로젝트의 components 파일")
+{:.lead width="906" height="414" loading="lazy"}
+약 2년전 진행한 프로젝트의 부끄러운 컴포넌트 폴더 구조
+{:.figcaption}
 
 BulletProof React는 **components** 폴더에는 다음과 같이 재활용이 확실한 UI 관련 컴포넌트와 Layout 컴포넌트 그리고 3rd party 라이브러리에 덧붙여 컴포넌트밖에 없었다.
 
