@@ -1,12 +1,16 @@
 ---
 layout: post
 title: Bulletproof React Architecture 분석
-sitemap: false
+sitemap: true
 hide_last_modified: true
 ---
 
+
 * toc
 {:toc}
+
+
+---
 
 
 ## 서론
@@ -18,14 +22,16 @@ Clean Architecture에 대해 늘 궁금했었다. 특히 Front-End 개발 특성
 이 같은 사태를 방지하기 위해 BulletProof React의 구조를 분석하고 내 프로젝트에 적용시켜보기로 했다.
 
 
+---
 
-## BulletProof React 란?
+
+## Bulletproof React 란?
 
 깃레포: [BulletProof React Github]
 
 > A simple, scalable, and powerful architecture for building production ready React applications.
 
-위 같은 설명으로 시작하는 **BulletProof React는 일종의 React Architecture을 다룬 교보재**이다. 실제 Boilerplate로 사용하는 목적이 아닌 코드를 살펴보고 분석하는 예제이다. 예제에는 간단한 로그인, 가입, 토론 등의 기능이 포함되어 있다. 실제 기능은 [BulletProof React]에서 확인할 수 있다.
+위 같은 설명으로 시작하는 **Bulletproof React는 일종의 React Architecture을 다룬 교보재**이다. 실제 Boilerplate로 사용하는 목적이 아닌 코드를 살펴보고 분석하는 예제이다. 예제에는 간단한 로그인, 가입, 토론 등의 기능이 포함되어 있다. 실제 기능은 [BulletProof React]에서 확인할 수 있다.
 
 
 코드는 다음과 같은 원칙들을 지키고 있다.
@@ -43,6 +49,8 @@ Clean Architecture에 대해 늘 궁금했었다. 특히 Front-End 개발 특성
 **Chat**: 처음엔 BulletProof React를 접한 .것은 단순히 Architecture가 궁금해서였기 때문에 위에 표시된 기능에 중점을 두고 보게 되었다. 공부하다가 보니 Clean Architecture로 인해 나머지 원칙들도 지킬 수 있게 된다는 것을 알게되었다.
 {:.message}
 
+
+---
 
 
 ## 파일 구조 분석
@@ -88,6 +96,8 @@ BulletProof React는 **components** 폴더에는 다음과 같이 재활용이 �
 BulletProof React에서는 **types** 폴더에는 최소한의 api 관련 type만 정의해두었다. **나머지 컴포넌트에서 필요한 type들은 컴포넌트 파일 상단에 정의해두었다.**
 
 
+---
+
 
 ## 단방향 구조
 
@@ -120,12 +130,12 @@ rules: {
 
 이때 **단방향성**을 단적으로 유지하여 아래와 같은 흐름을 만들어냈다. 
 
-[Full-width image](/assets/img/study/bulletproof_react_architecture/unidirectional_codebase.png "Unidirectional Codebase")
+![Full-width image](/assets/img/study/bulletproof_react_architecture/unidirectional_codebase.png "Unidirectional Codebase")
 {:.lead width="2268" height="1588" loading="lazy"}
 출처: https://github.com/alan2207/bulletproof-react/blob/master/docs/assets/unidirectional-codebase.png
 {:.figcaption}
 
-개발을 진행할 수록 파일간의 의존성이 커져서 유지 보수에 골머리 앓던 내가 추구해야할 구조인 것 같았다.
+
 
 [BulletProof React]: https://bulletproof-react-app.netlify.app/
 [BulletProof React Github]: https://github.com/alan2207/bulletproof-react
