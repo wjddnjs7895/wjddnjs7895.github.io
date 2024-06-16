@@ -10,7 +10,6 @@ hide_last_modified: true
 {:toc}
 
 
----
 
 
 ## 서론
