@@ -82,7 +82,7 @@ Bulletproof React Features Architecture
 
 BulletProof React는 **components** 폴더에는 다음과 같이 재활용이 확실한 UI 관련 컴포넌트와 Layout 컴포넌트 그리고 3rd party 라이브러리에 덧붙인 컴포넌트밖에 없었다. **즉, 재사용이 뚜렷한 컴포넌트들만 components 파일로 빼놓았다.** 단순히, 컴포넌트의 재활용이 많다고 좋은 것이 아니라는 것을 말하는 것만 같았다.
 
-![Full-width image](/assets/img/study/bulletproof_react_components_architecture/my_project_structure.png "Bulletproof React Components Structure")
+![Full-width image](/assets/img/study/bulletproof_react_architecture/my_project_structure.png "Bulletproof React Components Structure")
 {:.lead width="910" height="244" loading="lazy"}
 재활용성이 강한 Components들을 최소한으로 모은 구조
 {:.figcaption}
