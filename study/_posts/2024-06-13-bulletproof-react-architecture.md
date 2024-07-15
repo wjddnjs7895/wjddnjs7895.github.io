@@ -2,6 +2,7 @@
 layout: post
 title: Bulletproof React Architecture 분석
 sitemap: true
+image: /assets/img/study/bulletproof_react_architecture/bulletproof_react_structure.png
 hide_last_modified: true
 ---
 

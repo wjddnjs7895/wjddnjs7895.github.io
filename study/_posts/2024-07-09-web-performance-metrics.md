@@ -2,6 +2,7 @@
 layout: post
 title: Web Performance 지표
 sitemap: true
+image : /assets/img/study/web_performance_metrics/lighthouse_scoring_calculator.png
 hide_last_modified: true
 ---
 
