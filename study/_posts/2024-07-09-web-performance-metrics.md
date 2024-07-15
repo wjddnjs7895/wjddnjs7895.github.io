@@ -85,7 +85,7 @@ Lighthouse Scoring Calculator
 
 
 ![Full-width image](/assets/img/study/web_performance_metrics/tti_versus_fid.png "TTI versus FID")
-{:.lead width="300" height="143" loading="lazy"}
+{:.lead width="600" height="286" loading="lazy"}
 TTI vs FID 시점 차이
 {:.figcaption}
 
@@ -97,7 +97,7 @@ TTI vs FID 시점 차이
 * 200ms 이하를 추구
 
 ![Full-width image](/assets/img/study/web_performance_metrics/total_blocking_time.png "Total Blocking Time")
-{:.lead width="300" height="58" loading="lazy"}
+{:.lead width="600" height="116" loading="lazy"}
 Total Blocking Time
 {:.figcaption}
 
