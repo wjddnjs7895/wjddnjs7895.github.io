@@ -15,11 +15,16 @@ gem "webrick"
 
 gem "jekyll-paginate"
 gem "jekyll-avatar"
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
+
+
 
 group :jekyll_plugins do
   gem "github-pages"
   gem "jekyll-include-cache"
   gem "jekyll-compose"
+  
 end
 
 gem 'wdm' if Gem.win_platform?

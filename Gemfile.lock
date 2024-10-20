@@ -282,6 +282,8 @@ DEPENDENCIES
   jekyll-compose
   jekyll-include-cache
   jekyll-paginate
+  jekyll-seo-tag
+  jekyll-sitemap
   webrick
 
 BUNDLED WITH
