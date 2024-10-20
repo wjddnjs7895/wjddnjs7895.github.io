@@ -1,8 +1,8 @@
 ---
 layout: grid
-title: study
-slug: study
+title: ai
+slug: ai
 description: >
-  Upload Study Log
+  Upload AI Study Log
 menu: true
 ---

@@ -51,8 +51,12 @@ author:
 menu:
   - title: Show All
     url: /showall/
-  - title: Study Log
-    url: /study/
+  - title: FE
+    url: /frontend/
+  - title: BE
+    url: /backend/
+  - title: AI
+    url: /ai/
   - title: CS
     url: /cs/
   - title: Projects
