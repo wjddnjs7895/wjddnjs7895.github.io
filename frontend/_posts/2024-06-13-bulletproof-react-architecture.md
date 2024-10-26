@@ -7,7 +7,7 @@ hide_last_modified: true
 ---
 
 - toc
-  {:toc}
+{:toc}
 
 ## Introduction
 I have always been curious about Clean Architecture. Particularly in front-end development, the need to divide components based on design often leads to chaotic structures as development progresses.

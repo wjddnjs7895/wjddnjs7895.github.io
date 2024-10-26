@@ -7,7 +7,7 @@ hide_last_modified: true
 ---
 
 - toc
-  {:toc}
+{:toc}
 
 ## Introduction
 
