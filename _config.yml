@@ -51,6 +51,8 @@ author:
 menu:
   - title: Show All
     url: /showall/
+  - title: My Story
+    url: /story/
   - title: FE
     url: /frontend/
   - title: BE
@@ -59,10 +61,10 @@ menu:
     url: /ai/
   - title: CS
     url: /cs/
-  - title: Projects
-    url: /projects/
-  - title: History
-    url: /history/
+#  - title: Projects
+#    url: /projects/
+#  - title: History
+#    url: /history/
 #  - title: Résumé*
 #    url: /resume/
 #  - title: Documentation
